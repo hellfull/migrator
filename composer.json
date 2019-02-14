@@ -1,5 +1,5 @@
 {
-    "name": "hellfull/tartarus",
+    "name": "hellfull/migrator",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-          "Tartarus\\": "src/"
+          "Migrator\\": "src/"
         }
     }
 }

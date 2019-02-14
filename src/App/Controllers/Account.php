@@ -1,6 +1,6 @@
 <?php
 
-namespace Tartarus\App\Controllers;
+namespace Migrator\App\Controllers;
 
 class Account
 {

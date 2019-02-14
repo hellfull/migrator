@@ -1,12 +1,12 @@
 <?php
 
-namespace Tartarus\App\Controllers;
+namespace Migrator\App\Controllers;
 
 class Server
 {
     public function getServers()
     {
-        return json_encode(['tartarhost'=>'a list of servers']);
+        return json_encode(['servers'=>'a list of server ips']);
     }
 
     public function getServer($id)

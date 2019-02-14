@@ -1,10 +1,9 @@
 <?php
 
-namespace Tartarus\App;
+namespace Migrator\App;
 
-use Tartarus\App\Controllers\Account;
-use Tartarus\App\Controllers\Server;
-
+use Migrator\App\Controllers\Account;
+use Migrator\App\Controllers\Server;
 
 class Migration
 {
@@ -18,7 +17,8 @@ class Migration
 
     public function handle()
     {
-        return $this->server;
+        // TODO continue
+        echo $this->server;
     }
 }
 
