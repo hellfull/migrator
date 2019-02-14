@@ -1,0 +1,19 @@
+{
+    "name": "hellfull/tartarus",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Helias Fylactos",
+            "email": "fylactosdev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "^3.3@dev"
+    },
+    "autoload": {
+        "psr-4": {
+          "Tartarus\\": "src/"
+        }
+    }
+}
