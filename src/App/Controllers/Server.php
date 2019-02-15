@@ -6,6 +6,7 @@ class Server
 {
     public function getServers()
     {
+
         return json_encode(['servers'=>'a list of server ips']);
     }
 
